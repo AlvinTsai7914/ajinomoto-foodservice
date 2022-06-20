@@ -1,0 +1,9 @@
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.product-info-box span{
+    display: block;
+}

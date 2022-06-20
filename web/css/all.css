@@ -1,0 +1,16 @@
+.swal2-content .inner{
+    min-height: auto;
+}
+
+.modal-body.member-page h5, .modal-body.member-page p, .modal-body.member-page li{
+    text-align: left;
+}
+
+.modal-body.member-page p, .modal-body.member-page li{
+    font-size: 1rem;
+}
+
+.swal-wide
+{
+    min-width: 60%;
+}

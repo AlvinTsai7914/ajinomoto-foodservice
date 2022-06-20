@@ -1,0 +1,23 @@
+[18-May-2021 12:32:58 Asia/Taipei] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 M...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...')
+#1 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ajinomotoks/public_html/foodservice/setting/tools.php(371): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ajinomotoks/public_html/foodservice/setting/tools.php(405): SMTPSentMail('st920238@gmail....', '', '', '\xE9\xA4\x90\xE9\xA3\xB2\xE7\xB6\xB2\xE6\x9C\x83\xE5\x93\xA1...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...', NULL, NULL, '')
+#4 /home/ajinomotoks/public_html/foodservice/ajax/member_forgetpassword.php(38): SendMemberResetPasswordVerifi in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php on line 1856
+[18-May-2021 12:37:15 Asia/Taipei] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 M...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...')
+#1 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ajinomotoks/public_html/foodservice/setting/tools.php(371): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ajinomotoks/public_html/foodservice/setting/tools.php(405): SMTPSentMail('st920238@gmail....', '', '', '\xE9\xA4\x90\xE9\xA3\xB2\xE7\xB6\xB2\xE6\x9C\x83\xE5\x93\xA1...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...', NULL, NULL, '')
+#4 /home/ajinomotoks/public_html/foodservice/ajax/member_forgetpassword.php(38): SendMemberResetPasswordVerifi in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php on line 1856
+[18-May-2021 12:41:07 Asia/Taipei] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php:1856
+Stack trace:
+#0 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1598): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 M...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...')
+#1 /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php(1434): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ajinomotoks/public_html/foodservice/setting/tools.php(371): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ajinomotoks/public_html/foodservice/setting/tools.php(405): SMTPSentMail('st920238@gmail....', '', '', '\xE9\xA4\x90\xE9\xA3\xB2\xE7\xB6\xB2\xE6\x9C\x83\xE5\x93\xA1...', '<p>\xE6\x82\xA8\xE5\xA5\xBD\xEF\xBC\x9A</p...', NULL, NULL, '')
+#4 /home/ajinomotoks/public_html/foodservice/ajax/member_forgetpassword.php(38): SendMemberResetPasswordVerifi in /home/ajinomotoks/public_html/foodservice/libs/PHPMailer-master/src/PHPMailer.php on line 1856
+[18-May-2021 13:53:06 Asia/Taipei] PHP Notice:  Undefined index: email in /home/ajinomotoks/public_html/foodservice/ajax/member_login.php on line 38
+[18-May-2021 13:58:16 Asia/Taipei] PHP Notice:  Undefined index: email in /home/ajinomotoks/public_html/foodservice/ajax/member_login.php on line 38

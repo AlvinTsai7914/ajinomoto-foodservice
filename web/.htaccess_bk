@@ -1,0 +1,20 @@
+<Files *>
+    Options -Indexes
+</Files>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule webapi/(.*)$ webapi/vic_api.php?request=$1 [QSA,NC,L]
+
+    ErrorDocument 404 http://localhost:8087/404.php
+</IfModule>
+
+Order deny,allow
+allow from 211.21.155.97
+allow from 219.84.199.61
+allow from 61.216.129.13
+deny from all
+
